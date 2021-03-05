@@ -1,0 +1,55 @@
+.main-section {
+	width: 100%;
+	margin: auto;
+	border-bottom: 1px solid #e3e1e1;
+	padding-bottom: 45px;
+	margin-bottom: 20px;
+}
+
+.user-section {
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex-box {
+	display: flex;
+	justify-content: space-between;
+}
+
+.user-pic {
+	width: 50px;
+	border-radius: 50%;
+}
+
+.link-style {
+	align-self: center;
+	margin-left: 10px;
+	font-size: 16px;
+	color: #0a52e3;
+	text-decoration: none;
+}
+
+.resource-link-style {
+	margin-left: 30px;
+	font-size: 16px;
+}
+
+.dates-section {
+	margin-top: 15px;
+	font-size: 16px;
+}
+
+.desc-section {
+	margin-top: 15px;
+	font-size: 30px;
+	color: #626262;
+}
+
+.files-section {
+	margin-top: 15px;
+	padding-left: 20px;
+}
+
+.files-section > a:first-child {
+	margin-left: 0px;
+}

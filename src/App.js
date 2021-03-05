@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Header from "./components/Header";
 import GistList from "./components/GistList";
 import GlobalStyles from "./GlobalStyle";
+import './App.css';
 
 const App = () => {
   return (

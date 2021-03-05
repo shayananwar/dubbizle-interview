@@ -1,13 +1,21 @@
-import React from 'react'
+import React from 'react';
 import styled from 'styled-components'
-import Octicon from 'react-octicon'
+import Octicon from 'react-octicon';
+import { useDispatch } from 'react-redux';
+import { changeSearch } from '../store/search';
 
 const Search = () => {
+  const dispatch = useDispatch();
+
+  function handleChange(e) {
+    dispatch(changeSearch(e.target.value));
+  }
+
   return (
     <Wrapper>
       <InputBox>
       <Octicon name="search" />
-      <Input placeholder="Search Gists for the username"/>
+      <Input placeholder="Search Gists for the username" onChange={handleChange}/>
       </InputBox>
     </Wrapper>
   )
